@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="relative bg-black p-12 flex space-x-9">
-        <img src="src/assets/opera.png" alt="logo image" />
+        <img src="/opera.png" alt="logo image" />
 
         <ul className="flex space-x-8 text-white m-4">
           <li>
@@ -60,14 +60,14 @@ function App() {
         <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-rose-600 text-black font-bold rounded-sm px-12 py-7 text-xl">
           Download Opera GX
         </button>
-        <img src="src/assets/guru.png" alt="logo image" />
+        <img src="/guru.png" alt="logo image" />
       </div>
 
       <div className="bg-black min-h-80"></div>
 
       <div className="flex justify-end bg-black w-full h-auto overflow-hidden rounded-l">
         <div className="bg-gradient-to-b from-black to-gray-900 flex flex-col items-center justify-center min-h-screen px-40 py-20 space-y-14">
-          <img src="src/assets/logo.png" alt="logo image" className="mb-2" />
+          <img src="/logo.png" alt="logo image" className="mb-2" />
           <h1 className="text-5xl font-bold text-white">
             Make every
             <br />
@@ -80,7 +80,7 @@ function App() {
 
         <div className="w-1/2 bg-gradient-to-b from-black to-gray-900">
           <img
-            src="src/assets/extra.png"
+            src="/extra.png"
             alt="logo image"
             className="w-full h-auto object-cover"
           />
@@ -102,7 +102,7 @@ function App() {
 
         <div className="w-1/2 bg-gradient-to-b from-black to-gray-900">
           <img
-            src="src/assets/solo.png"
+            src="/solo.png"
             alt="logo image"
             className="w-full h-auto object-cover"
           />
@@ -110,10 +110,10 @@ function App() {
       </div>
       
 
-      <div className="flex flex-cols">
+      <div className="flex flex-cols bg-gradient-to-r from-black to-gray-300">
         <h2>FRESH AF FEATURES</h2>
         <p>Enjoy the internet from your own POV</p>
-        <img src="src/assets/solo.png" alt="chat image" />
+        <img src="/solo.png" alt="chat image" />
       </div>
 
       <div>
@@ -124,7 +124,7 @@ function App() {
 
       <div>
         <h1>EVERYTHING YOU Want IN A BROWSER</h1>
-        <img src="src/assets/solo.png" alt="maso image" />
+        <img src="/solo.png" alt="maso image" />
       </div>
     </>
   )
