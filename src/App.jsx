@@ -10,6 +10,7 @@ function App() {
   return (
    <>
    <div className="relative bg-black p-12 flex space-x-9  ">
+   <img src="src/assets/opera.png" alt="logo image " />
     
    <ul className="flex space-x-8 text-white m-4">
   <li><a href="#" className="text-white text-center font-bold bg-transparent p-4 m-4 hover:bg-stone-500 rounded-lg hover:px-7 py-5 rounded-m hover:text-rose-700 ">Browsers</a></li>
@@ -27,19 +28,34 @@ function App() {
       
       <button className=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-rose-600 text-black font-bold rounded-sm px-12 py-7 text-xl">Download Opera GX</button>
      <img src="src/assets/guru.png" alt="logo image" />
-     <img src="src/assets/opera.png" alt="logo image " />
+     
 
        
       </div>
-      <div class="h-1 bg-green my-4"></div>
+      <div className="bg-black min-h-80"></div>
 
-      <div>
-        <img src="src/assets/logo.png" alt="logo image" />
-        <img src="src/assets/extra.png" alt="logo image" />
-        <h1>Make every
-        pixel personal</h1>
+      <div className="flex justify-end bg-black w-full h-auto overflow-hidden rounded-l">
 
-      </div>
+  
+        <div className="bg-gradient-to-b from-black to-gray-900 flex flex-col items-center justify-center min-h-screen px-40 py-20 space-y-14 ">
+
+<img src="src/assets/logo.png" alt="logo image" class="mb-2" />
+<h1 className="text-5xl font-bold  text-white">Make every<br/>
+  pixel personal</h1>
+  <p className="text-rose-200">Match your browser to your setup, your mood or whatever you’re playing with Opera GX</p>
+
+
+        </div>
+        <div className="w-1/2 bg-gradient-to-b from-black to-gray-900 " >
+     
+        <img src="src/assets/extra.png" alt="logo image" className="w-full h-auto object-cover" />
+        
+
+
+        </div>
+       </div>
+      
+
       <div>
   <h2>FRESH AF FEATURES</h2>
   <p>Enjoy the internet
